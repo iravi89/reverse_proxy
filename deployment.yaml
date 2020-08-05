@@ -15,7 +15,7 @@ spec:
         apps: reverseproxy
     spec:
       containers:
-      - image: iravi89/simple-reverse-proxy
+      - image: iravi89/simple-express
         name: reverseproxy
         imagePullPolicy: Always          
         resources:
